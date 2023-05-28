@@ -29,10 +29,8 @@
 </head>
 
 <body class="body" id="body">
-
-
-
-  <!-- burger -->
+  <header class="header">
+    <!-- burger -->
   <nav id="burgerNav" class=" burgerNav">
     <button id="burgerNav__exit" class="burgerNav__exit btn-reset" aria-label="Закрыть бургер меню">
       <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -71,8 +69,6 @@
     </a>
   </nav>
   <!-- ======================================= -->
-
-  <header class="header">
     <div class="container header__container">
 
       <button id="burger" class="header__burger  btn-reset" aria-label="Открытия бургер меню" tabindex="0">
@@ -608,7 +604,7 @@
                   <button class="btn-reset accordion__btn-content" data-path="unknown" aria-label="Андреа Верроккьо">
                     Андреа Верроккьо</button>
 
-                  <button class="btn-reset accordion__btn-content catalog__tabs--active-color" data-path="twelve"
+                  <button class="btn-reset accordion__btn-content accordion__btn-content--active" data-path="twelve"
                     aria-label="Доменико Гирландайо">
                     Доменико Гирландайо</button>
 
@@ -819,7 +815,7 @@
         <div class="events__block-swiper">
           <div class="swiper events__swiper">
             <div class="swiper-wrapper events__swiper-wrapper">
-              <div class="swiper-slide">
+              <div class="swiper-slide swiper-change">
                 <div class="events__swiper-slide">
                   <figure class="events__block-img">
                     <img class="events__img" src="/img/events/event1.png" alt="Музей им. Щусева">
@@ -839,7 +835,7 @@
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide swiper-change">
                 <div class="events__swiper-slide">
                   <figure class="events__block-img">
                     <img class="events__img" src="/img/events/event2.png" alt="ММОМА">
@@ -861,7 +857,7 @@
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide swiper-change">
                 <div class="events__swiper-slide">
                   <figure class="events__block-img">
                     <img class="events__img" src="/img/events/event3.png" alt="Еврейский музей">
@@ -882,7 +878,7 @@
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide swiper-change">
                 <div class="events__swiper-slide">
                   <figure class="events__block-img">
                     <img class="events__img" src="/img/events/event4.png" alt="ММАМ">
@@ -902,7 +898,7 @@
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide events__swiper-slide">
+              <div class="swiper-slide swiper-change events__swiper-slide">
                 <figure class="events__block-img">
                   <img class="events__img" src="/img/events/event5.png" alt="Третьяковка на Крымском валу">
                   <figcaption class="events__img-signature">Третьяковка на Крымском валу
@@ -1121,7 +1117,7 @@
             </p>
           </div>
           <div class="contacts__form" >
-            <form id="form" action="https://jsonplaceholder.typicode.com/posts" method="post" class="form__block">
+            <form id="form" action="https://jsonplaceholder.typicode.com/posts" method="post" class="form">
               <div class="contacts__form-inside">
                 <input id="name" class="form__input" type="text" name="name" placeholder="Имя*" data-validate-field="name" required>
               </div>

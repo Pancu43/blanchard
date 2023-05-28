@@ -90,10 +90,10 @@ document.addEventListener('DOMContentLoaded', () => {
     tabsBtn.addEventListener('click', function (e) {
       const path = e.currentTarget.dataset.path;
       document.querySelectorAll('.accordion__btn-content').forEach(function (btn) {
-        btn.classList.remove('catalog__tabs--active-color')
+        btn.classList.remove('accordion__btn-content--active')
       });
 
-      e.currentTarget.classList.add('catalog__tabs--active-color');
+      e.currentTarget.classList.add('accordion__btn-content--active');
 
 
       document.querySelectorAll('.catalog__painter').forEach(function (tabsBtn) {
